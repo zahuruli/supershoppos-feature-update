@@ -1,0 +1,402 @@
+.full_div_marketing_due_collection_report_supershop {
+    display: flex;
+    flex-direction: column;
+    row-gap: 1vh;
+    width: 100vw;
+    /* height: 93.3vh; */
+    overflow: hidden;
+    background-color: #bbd2c6;
+  }
+  
+  .first_row_marketing_due_collection_report_supershop {
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+    background-color: #88b39a;
+    border-radius: 2vh;
+    transition: 0.5s;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 1vw;
+    margin-top: 1vh;
+    column-gap: 1vw;
+    padding: 0.7vw;
+    width: 98vw;
+    height: 20vh;
+    animation-name: effectTop;
+    animation-duration: 1s;
+  }
+  
+  /* Utility */
+  .input_field_marketing_due_collection_report_supershop {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 3vh;
+  }
+  
+  .input_field_marketing_due_collection_report_supershop label {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: #000;
+    text-shadow: 2px 7px 5px rgba(0, 0, 0, 0.3),
+      0px -4px 10px rgba(255, 255, 255, 0.3);
+    font-size: 0.9vw;
+    padding-left: 0.3vw;
+    width: 8vw;
+    height: 3.2vh;
+    font-weight: bold;
+  }
+  
+  .input_field_marketing_due_collection_report_supershop input {
+    box-shadow: 0 0px 0px 1px rgba(145, 141, 141, 0.5);
+    border-radius: 3px;
+    font-size: 0.8vw;
+    background-color: #ffffff;
+    padding-left: 0.2vw;
+    width: 12vw;
+    height: 3.2vh;
+    border: 0.001px solid red;
+    border-color: #b1afaf;
+    text-shadow: 2px 7px 5px rgba(0, 0, 0, 0.3),
+      0px -4px 10px rgba(255, 255, 255, 0.3);
+    animation: 3s;
+    animation-name: fadeIn;
+    animation-fill-mode: forwards;
+    visibility: hidden;
+  }
+  
+  .input_field_marketing_due_collection_report_supershop select {
+    box-shadow: 0 0px 0px 1px rgba(145, 141, 141, 0.5);
+    border-radius: 3px;
+    font-size: 0.8vw;
+    background-color: #ffffff;
+    padding-left: 0.2vw;
+    width: 12vw;
+    height: 3.2vh;
+    border: 0.001px solid red;
+    border-color: #b1afaf;
+    text-shadow: 2px 7px 5px rgba(0, 0, 0, 0.3),
+      0px -4px 10px rgba(255, 255, 255, 0.3);
+    animation: 3s;
+    animation-name: fadeIn;
+    animation-fill-mode: forwards;
+    visibility: hidden;
+  }
+  
+  .input_field_marketing_due_collection_report_supershop button {
+    padding: 5px 5px;
+    font-size: 0.8vw;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    cursor: pointer;
+    outline: none;
+    color: #fff;
+    margin-left: 1vw;
+    background-color: #06341b;
+    border: none;
+    border-radius: 0.5vh;
+    box-shadow: 0 5px #999;
+    width: 6vw;
+    height: 3.2vh;
+  }
+  
+  .container_search_marketing_due_collection_report_supershop {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    column-gap: 20vw;
+  }
+  
+  .search_field_marketing_due_collection_report1_supershop {
+    box-shadow: 0 4px 30px 0 rgba(167, 169, 170, 0.821);
+    border-radius: 2vh;
+    transition: 0.5s;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 0.5vw;
+    margin-bottom: 0.5vw;
+    /* margin-left: 1vw; */
+    column-gap: 2vw;
+    padding: 0.7vw;
+    width: 60vw;
+    height: 18vh;
+  }
+  
+  .search_field_marketing_due_collection_report2_supershop {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    column-gap: 2vw;
+  }
+  
+  .second_row_marketing_due_collection_report_supershop {
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+    background-color: #88b39a;
+    border-radius: 2vh;
+    transition: 0.5s;
+    display: flex;
+    flex-direction: row;
+    /* margin-top: 1vw; */
+    /* margin-bottom: 1vw; */
+    padding: 0.7vw;
+    margin-left: 1vw;
+    column-gap: 1vw;
+    width: 98vw;
+    height: 60vh;
+    animation-name: transition_from_left_to_right;
+    animation-duration: 1s;
+  }
+  
+  .table_wrapper_marketing_due_collection_report_supershop {
+    scrollbar-color: #88b39a #bbd2c6;
+    scroll-behavior: smooth;
+    box-shadow: 0 4px 30px 0 rgba(25, 24, 24, 0.2);
+    background-color: #bbd2c6;
+    max-height: 600px;
+    overflow-y: scroll;
+    border-radius: 2vh;
+    transition: 0.5s;
+    /* margin-left: 2vw; */
+    padding-top: 0vh;
+    column-gap: 1vw;
+    width: 96vw;
+    height: 56vh;
+  }
+  
+  .table_wrapper_marketing_due_collection_report_supershop th {
+    position: sticky;
+    top: 0;
+    background: #06341b;
+    color: #ffffff;
+    width: 100vw;
+    font-size: 0.9vw;
+    text-shadow: 2px 7px 5px rgba(0, 0, 0, 0.3),
+      0px -4px 10px rgba(255, 255, 255, 0.3);
+    /* font-size: 0.9vw; */
+  }
+  
+  /* Third row div */
+  .third_row_marketing_due_collection_report_supershop {
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+    background-color: #88b39a;
+    border-radius: 2vh;
+    transition: 0.5s;
+    display: flex;
+    flex-direction: row;
+    /* margin-top: 1vw; */
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1vw;
+    padding: 0.7vw;
+    margin-left: 1vw;
+    column-gap: 1vw;
+    width: 98vw;
+    height: 8vh;
+    animation-name: effectBottom;
+    animation-duration: 1s;
+  }
+  
+  .marketing_due_collection_report2_supershop_button {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .marketing_due_collection_report2_supershop_button button {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 3vw;
+    height: 3vw;
+    font-size: 2vw;
+    color: #e9e8e8;
+    padding-left: 0.15vw;
+    background-color: #043a1a;
+    cursor: pointer;
+    border: none;
+    border-radius: 1vw;
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset,
+      rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset,
+      rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px,
+      rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px,
+      rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+  }
+  
+  .marketing_due_collection_report2_supershop_button span {
+    font-size: 1vw;
+    font-weight: bold;
+    padding-top: 0.5vh;
+    color: #000;
+    text-shadow: 2px 7px 5px rgba(0, 0, 0, 0.3),
+      0px -4px 10px rgba(255, 255, 255, 0.3);
+  }
+  
+  /* Animation */
+  @keyframes effectLeft {
+    0% {
+      transform: translateX(-10vw);
+      opacity: 0;
+    }
+    100% {
+      transform: translate(0);
+      opacity: 1;
+    }
+  }
+  
+  @keyframes effectRight {
+    0% {
+      transform: translateX(10vw);
+      opacity: 0;
+    }
+    100% {
+      transform: translate(0);
+      opacity: 1;
+    }
+  }
+  @keyframes effectTop {
+    0% {
+      transform: translateY(-20vw);
+      opacity: 0;
+    }
+    100% {
+      transform: translate(0);
+      opacity: 1;
+    }
+  }
+  
+  @keyframes effectBottom {
+    0% {
+      transform: translateY(10vw);
+      opacity: 0;
+    }
+    100% {
+      transform: translate(0);
+      opacity: 1;
+    }
+  }
+  
+  @keyframes fadeIn {
+    5% {
+      visibility: hidden;
+      opacity: 0.05;
+      box-shadow: 2px 2px 125px 2px rgba(145, 141, 141, 0.5);
+    }
+    10% {
+      visibility: visible;
+      opacity: 0.1;
+      box-shadow: 2px 2px 120px 2px rgba(145, 141, 141, 0.5);
+    }
+    15% {
+      visibility: visible;
+      opacity: 0.15;
+      box-shadow: 2px 2px 110px 2px rgba(145, 141, 141, 0.5);
+    }
+    20% {
+      visibility: visible;
+      opacity: 0.2;
+      box-shadow: 2px 2px 100px 2px rgba(145, 141, 141, 0.5);
+    }
+  
+    25% {
+      visibility: hidden;
+      opacity: 0.25;
+      box-shadow: 2px 2px 95px 2px rgba(145, 141, 141, 0.5);
+    }
+    30% {
+      visibility: visible;
+      opacity: 0.3;
+      box-shadow: 2px 2px 90px 2px rgba(145, 141, 141, 0.5);
+    }
+    35% {
+      visibility: visible;
+      opacity: 0.35;
+      box-shadow: 2px 2px 85px 2px rgba(145, 141, 141, 0.5);
+    }
+    40% {
+      visibility: visible;
+      opacity: 0.4;
+      box-shadow: 2px 2px 80px 2px rgba(145, 141, 141, 0.5);
+    }
+    45% {
+      visibility: hidden;
+      opacity: 0.45;
+      box-shadow: 2px 2px 75px 2px rgba(145, 141, 141, 0.5);
+    }
+    50% {
+      visibility: visible;
+      opacity: 0.5;
+      box-shadow: 2px 2px 70px 2px rgba(145, 141, 141, 0.5);
+    }
+    55% {
+      visibility: visible;
+      opacity: 0.55;
+      box-shadow: 2px 2px 65px 2px rgba(145, 141, 141, 0.5);
+    }
+    60% {
+      visibility: visible;
+      opacity: 0.6;
+      box-shadow: 2px 2px 60px 2px rgba(145, 141, 141, 0.5);
+    }
+    65% {
+      visibility: visible;
+      opacity: 0.65;
+      box-shadow: 2px 2px 55px 2px rgba(145, 141, 141, 0.5);
+    }
+    70% {
+      visibility: hidden;
+      opacity: 0.7;
+      box-shadow: 2px 2px 50px 2px rgba(145, 141, 141, 0.5);
+    }
+    75% {
+      visibility: visible;
+      opacity: 0.75;
+      box-shadow: 2px 2px 45px 2px rgba(145, 141, 141, 0.5);
+    }
+    80% {
+      visibility: visible;
+      opacity: 0.8;
+      box-shadow: 2px 2px 40px 2px rgba(145, 141, 141, 0.5);
+    }
+    85% {
+      visibility: visible;
+      opacity: 0.85;
+      box-shadow: 2px 2px 15px 2px rgba(145, 141, 141, 0.5);
+    }
+    90% {
+      visibility: visible;
+      opacity: 0.9;
+      box-shadow: 2px 2px 10px 2px rgba(145, 141, 141, 0.5);
+    }
+    95% {
+      visibility: visible;
+      opacity: 0.95;
+      box-shadow: 2px 2px 5px 2px rgba(145, 141, 141, 0.5);
+    }
+    100% {
+      visibility: visible;
+      opacity: 1;
+      box-shadow: 2px 2px 4px 2px rgba(145, 141, 141, 0.5);
+    }
+  }
+  
+  @keyframes transition_from_left_to_right {
+    0% {
+      transform: translateX(-10vw);
+      opacity: 0;
+    }
+    100% {
+      transform: translate(0);
+      opacity: 1;
+    }
+  }
+  

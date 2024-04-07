@@ -1,0 +1,472 @@
+.full_div_supershop_sale_report {
+  display: flex;
+  flex-direction: column;
+  row-gap: 1vh;
+  width: 100vw;
+  /* height: 93.3vh; */
+  background-color: #bbd2c6;
+  overflow: hidden;
+}
+
+.container_table_supershop_sale_report .rows:focus {
+  outline: none;
+  background-color: #88b39a;
+}
+
+.first_row_div_supershop_sale_report {
+  box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+  background-color: #88b39a;
+  border-radius: 2vh;
+  transition: 0.5s;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 1.5vh;
+  margin-left: 1vw;
+  padding: 1vw;
+  row-gap: 2vw;
+  width: 98vw;
+  height: 17vh;
+}
+
+.input_field_supershop_sale_report {
+  display: flex;
+  flex-direction: row;
+  /* align-items: center;
+    justify-content: center; */
+  padding-top: 1.5vh;
+}
+
+.input_field_supershop_sale_report label {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  /* justify-content: center; */
+  color: #000;
+  text-shadow: 2px 7px 5px rgba(0, 0, 0, 0.3),
+    0px -4px 10px rgba(255, 255, 255, 0.3);
+  font-size: 0.9vw;
+  padding-left: 0.3vw;
+  width: 7vw;
+  height: 3.2vh;
+  font-weight: bold;
+  /* margin-right: 1vw; */
+}
+
+.input_field_supershop_sale_report input {
+  box-shadow: 0 0px 0px 1px rgba(145, 141, 141, 0.5);
+  border-radius: 3px;
+  font-size: 0.8vw;
+  background-color: #ffffff;
+  padding-left: 0.2vw;
+  width: 12vw;
+  height: 3.2vh;
+  border: 0.001px solid red;
+  border-color: #b1afaf;
+  text-shadow: 2px 7px 5px rgba(0, 0, 0, 0.3),
+    0px -4px 10px rgba(255, 255, 255, 0.3);
+  animation: 3s;
+  animation-name: fadeIn;
+  animation-fill-mode: forwards;
+  visibility: hidden;
+}
+
+.input_field_supershop_sale_report select {
+  box-shadow: 0 0px 0px 1px rgba(145, 141, 141, 0.5);
+  border-radius: 3px;
+  font-size: 0.8vw;
+  background-color: #ffffff;
+  padding-left: 0.2vw;
+  width: 12vw;
+  height: 3.2vh;
+  border: 0.001px solid red;
+  border-color: #b1afaf;
+  animation: 3s;
+  animation-name: fadeIn;
+  animation-fill-mode: forwards;
+  visibility: hidden;
+}
+
+.input_field_supershop_sale_report button {
+  padding: 5px 5px;
+  font-size: 0.8vw;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  cursor: pointer;
+  outline: none;
+  color: #fff;
+  margin-left: 1vw;
+  background-color: #06341b;
+  border: none;
+  border-radius: 0.5vh;
+  box-shadow: 0 5px #999;
+  width: 6vw;
+  height: 3.2vh;
+}
+
+.input_field_supershop_sale_report button:active {
+  transform: scale(0.9);
+}
+
+/* .input_field_supershop_sale_report button {
+    margin-left: 2vw;
+  } */
+
+.container_supershop_sale_report {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  align-items: center;
+  justify-content: center;
+  column-gap: 1vw;
+}
+
+.container_supershop_sale_report_column1 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  animation-name: effectTop;
+  animation-duration: 1s;
+}
+
+.container_supershop_sale_report_column2 {
+  animation-name: effectTop;
+  animation-duration: 1s;
+}
+
+.container_supershop_sale_report_column3 {
+  animation-name: effectTop;
+  animation-duration: 1s;
+}
+.bg-color:hover {
+  background-color: #c0c0c0; /* Change the background color on hover */
+}
+
+.container_supershop_sale_report_column4 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  column-gap: 1vw;
+  animation-name: effectTop;
+  animation-duration: 1s;
+}
+
+.container_table_supershop_sale_report .bg-color:focus {
+  outline: none;
+  background: #06341b;
+}
+
+.container_sheet_button_sale_report {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.container_sheet_button_sale_report button {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 3vw;
+  height: 3vw;
+  font-size: 2vw;
+  color: #dde0de;
+  padding-left: 0.15vw;
+  background-color: #06341b;
+  border: none;
+  border-radius: 1vw;
+  cursor: pointer;
+  box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset,
+    rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset,
+    rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px,
+    rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px,
+    rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+
+.container_sheet_button_sale_report span {
+  font-size: 1vw;
+  font-weight: bold;
+  padding-top: 0.5vh;
+  color: #000;
+  text-shadow: 2px 7px 5px rgba(0, 0, 0, 0.3),
+    0px -4px 10px rgba(255, 255, 255, 0.3);
+}
+
+.second_row_div_supershop_sale_report {
+  box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+  background-color: #88b39a;
+  border-radius: 2vh;
+  transition: 0.5s;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* justify-content: center; */
+  margin-top: 0.8vh;
+  margin-left: 1vw;
+  width: 98vw;
+  height: 47vh;
+  padding: 1vh;
+}
+
+.container_table_supershop_sale_report {
+  max-height: 600px;
+  overflow-y: scroll;
+  scrollbar-color: #88b39a #bbd2c6;
+  scroll-behavior: smooth;
+  box-shadow: 0 4px 30px 0 rgba(25, 24, 24, 0.2);
+  border-radius: 2vh;
+  transition: 0.5s;
+  padding-top: 0vh;
+  padding-left: 0.5vw;
+  column-gap: 1vw;
+  width: 96vw;
+  height: 45vh;
+  animation-name: effectLeft;
+  animation-duration: 1s;
+  background-color: #bbd2c6;
+}
+
+.container_table_supershop_sale_report th {
+  position: sticky;
+  top: 0;
+  background: #06341b;
+  color: #ffffff;
+  width: 100vw;
+  font-size: 0.9vw;
+  text-shadow: 2px 7px 5px rgba(0, 0, 0, 0.3),
+    0px -4px 10px rgba(255, 255, 255, 0.3);
+}
+
+.container_table_supershop_sale_report td {
+  border: 1px solid #ddd;
+  text-align: center;
+  padding: 0;
+  font-size: 0.9vw;
+  /* text-shadow: 2px 7px 5px rgba(0, 0, 0, 0.3),
+    0px -4px 10px rgba(255, 255, 255, 0.3); */
+  cursor: pointer;
+}
+
+.container_table_supershop_sale_report .rows:hover {
+  background: gray;
+  color: #fff;
+}
+
+.container_table_supershop_sale_report .rows:focus {
+  outline: none;
+  background: #318153;
+}
+
+.container_table_supershop_sale_report .rows.selected {
+  background: #318153;
+  color: #fff;
+}
+
+.third_row_div_supershop_sale_report {
+  box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+  background-color: #88b39a;
+  border-radius: 2vh;
+  transition: 0.5s;
+  display: grid;
+  grid-template-columns: 2fr 2fr 2fr 1fr 1fr;
+  align-items: center;
+  /* justify-content: center; */
+  margin-top: 0.8vh;
+  margin-left: 1vw;
+  width: 98vw;
+  height: 21vh;
+  padding: 1vh;
+  margin-bottom: 1vw;
+}
+
+.conatiner_update_supershop_sale_report_column1 {
+  animation-name: effectLeft;
+  animation-duration: 1s;
+}
+
+.conatiner_update_supershop_sale_report_column2 {
+  animation-name: effectButtom;
+  animation-duration: 1s;
+}
+
+.conatiner_update_supershop_sale_report_column3 {
+  animation-name: effectButtom;
+  animation-duration: 1s;
+}
+
+.container_sheet_button_sale_report .red:hover {
+  color: red;
+}
+
+.conatiner_update_supershop_sale_report_column4 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  column-gap: 1vw;
+  animation-name: effectRight;
+  animation-duration: 1s;
+}
+
+@keyframes effectLeft {
+  0% {
+    transform: translateX(-20vw);
+    opacity: 0;
+  }
+  100% {
+    transform: translate(0);
+    opacity: 1;
+  }
+}
+
+@keyframes effectRight {
+  0% {
+    transform: translateX(20vw);
+    opacity: 0;
+  }
+  100% {
+    transform: translate(0);
+    opacity: 1;
+  }
+}
+@keyframes effectTop {
+  0% {
+    transform: translateY(-20vw);
+    opacity: 0;
+  }
+  100% {
+    transform: translate(0);
+    opacity: 1;
+  }
+}
+
+@keyframes effectButtom {
+  0% {
+    transform: translateY(20vw);
+    opacity: 0;
+  }
+  100% {
+    transform: translate(0);
+    opacity: 1;
+  }
+}
+
+@keyframes fadeIn {
+  5% {
+    visibility: hidden;
+    opacity: 0.05;
+    box-shadow: 2px 2px 125px 2px rgba(145, 141, 141, 0.5);
+  }
+  10% {
+    visibility: visible;
+    opacity: 0.1;
+    box-shadow: 2px 2px 120px 2px rgba(145, 141, 141, 0.5);
+  }
+  15% {
+    visibility: visible;
+    opacity: 0.15;
+    box-shadow: 2px 2px 110px 2px rgba(145, 141, 141, 0.5);
+  }
+  20% {
+    visibility: visible;
+    opacity: 0.2;
+    box-shadow: 2px 2px 100px 2px rgba(145, 141, 141, 0.5);
+  }
+
+  25% {
+    visibility: hidden;
+    opacity: 0.25;
+    box-shadow: 2px 2px 95px 2px rgba(145, 141, 141, 0.5);
+  }
+  30% {
+    visibility: visible;
+    opacity: 0.3;
+    box-shadow: 2px 2px 90px 2px rgba(145, 141, 141, 0.5);
+  }
+  35% {
+    visibility: visible;
+    opacity: 0.35;
+    box-shadow: 2px 2px 85px 2px rgba(145, 141, 141, 0.5);
+  }
+  40% {
+    visibility: visible;
+    opacity: 0.4;
+    box-shadow: 2px 2px 80px 2px rgba(145, 141, 141, 0.5);
+  }
+  45% {
+    visibility: hidden;
+    opacity: 0.45;
+    box-shadow: 2px 2px 75px 2px rgba(145, 141, 141, 0.5);
+  }
+  50% {
+    visibility: visible;
+    opacity: 0.5;
+    box-shadow: 2px 2px 70px 2px rgba(145, 141, 141, 0.5);
+  }
+  55% {
+    visibility: visible;
+    opacity: 0.55;
+    box-shadow: 2px 2px 65px 2px rgba(145, 141, 141, 0.5);
+  }
+  60% {
+    visibility: visible;
+    opacity: 0.6;
+    box-shadow: 2px 2px 60px 2px rgba(145, 141, 141, 0.5);
+  }
+  65% {
+    visibility: visible;
+    opacity: 0.65;
+    box-shadow: 2px 2px 55px 2px rgba(145, 141, 141, 0.5);
+  }
+  70% {
+    visibility: hidden;
+    opacity: 0.7;
+    box-shadow: 2px 2px 50px 2px rgba(145, 141, 141, 0.5);
+  }
+  75% {
+    visibility: visible;
+    opacity: 0.75;
+    box-shadow: 2px 2px 45px 2px rgba(145, 141, 141, 0.5);
+  }
+  80% {
+    visibility: visible;
+    opacity: 0.8;
+    box-shadow: 2px 2px 40px 2px rgba(145, 141, 141, 0.5);
+  }
+  85% {
+    visibility: visible;
+    opacity: 0.85;
+    box-shadow: 2px 2px 15px 2px rgba(145, 141, 141, 0.5);
+  }
+  90% {
+    visibility: visible;
+    opacity: 0.9;
+    box-shadow: 2px 2px 10px 2px rgba(145, 141, 141, 0.5);
+  }
+  95% {
+    visibility: visible;
+    opacity: 0.95;
+    box-shadow: 2px 2px 5px 2px rgba(145, 141, 141, 0.5);
+  }
+  100% {
+    visibility: visible;
+    opacity: 1;
+    box-shadow: 2px 2px 4px 2px rgba(145, 141, 141, 0.5);
+  }
+}
+
+@keyframes transition_from_left_to_right {
+  0% {
+    transform: translateX(-10vw);
+    opacity: 0;
+  }
+  100% {
+    transform: translate(0);
+    opacity: 1;
+  }
+}

@@ -1,0 +1,158 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+.container {
+  display: block;
+  width: 100%;
+  background: #fff;
+  max-width: 350px;
+  padding: 3px 20px;
+  margin: auto 0;
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+}
+
+.receipt_header {
+  padding-bottom: 10px;
+  border-bottom: 1px dashed #000;
+  text-align: center;
+}
+
+.receipt_header h1 {
+  font-size: 20px;
+  margin-bottom: 5px;
+  text-transform: uppercase;
+}
+
+.receipt_header h1 span {
+  display: block;
+  font-size: 25px;
+}
+
+.receipt_header h2 {
+  font-size: 14px;
+  color: #000000;
+  font-weight: 400;
+}
+
+.receipt_header h2 span {
+  display: block;
+}
+
+.receipt_body {
+  margin-top: 7px;
+}
+
+.items table {
+  width: 100%;
+}
+
+.items table thead,
+tfoot {
+  position: relative;
+}
+
+.items table thead th:not(:last-child) {
+  text-align: left;
+}
+
+.items table thead th:last-child {
+  text-align: right;
+}
+
+.items table::after {
+  content: "";
+  width: 100%;
+  border-bottom: 1px dashed #000;
+  display: block;
+  position: absolute;
+}
+
+.items table tbody td {
+  line-height: 10px;
+}
+
+.items table tbody td:not(:last-child),
+tfoot td:not(:last-child) {
+  text-align: left;
+}
+
+.items table tbody td:last-child,
+tfoot td:last-child {
+  text-align: right;
+}
+
+.items table tbody tr:first-child td {
+  padding-top: 5px;
+}
+
+.items table tbody tr:last-child td {
+  padding-bottom: 5px;
+}
+
+tfoot tr:first-child td {
+  padding-top: 5px;
+}
+.items table tbody tr th {
+  font-size: 25px;
+}
+.items table tbody tr td {
+  font-size: 20px;
+}
+
+/* tfoot::before {
+    content: '';
+    width: 100%;
+    border-top: 1px dashed #000;
+    display: block;
+    position: absolute;
+} */
+
+tfoot tr:first-child td:first-child,
+tfoot tr:first-child td:last-child {
+  /* font-weight: bold; */
+  font-size: 15px;
+}
+
+.container tfoot tr td {
+  font-size: 15px;
+  line-height: 12px;
+}
+
+.date_time_con {
+  display: flex;
+  justify-content: center;
+  column-gap: 20px;
+}
+
+.container table th {
+  font-size: 13px;
+  font-weight: bold;
+  color: #000 !important;
+}
+
+.container table td {
+  font-size: 13px !important;
+  color: #000 !important;
+}
+
+.items {
+  margin-top: 5px;
+}
+
+.thank {
+  border-top: 1px dashed #000;
+  padding-top: 10px;
+  margin-top: 25px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.hrline {
+  border-bottom: 1px solid #1d1d1d;
+}

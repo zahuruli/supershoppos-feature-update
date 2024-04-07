@@ -1,0 +1,13 @@
+.BarChartBox {
+  height: 100%;
+  width: 100%;
+  /* background-color: #a3c5b2; */
+  padding-top: 0.3vh;
+}
+
+.BarChartBox > h1 {
+  font-size: 1.8vw;
+  margin-bottom: 2vh;
+}
+.chart {
+}

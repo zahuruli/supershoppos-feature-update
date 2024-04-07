@@ -1,0 +1,773 @@
+/* On mouse-over, add a deeper shadow */
+.card:hover {
+  box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.2);
+}
+* {
+  font-family: Arial, Helvetica, sans-serif;
+}
+.table_div_supershop_supplier_report {
+  scrollbar-color: rgba(136, 179, 154, 1) rgba(187, 210, 198, 1);
+}
+
+.table_div_supershop_supplier_report::-webkit-scrollbar {
+  width: 12px;
+}
+
+.table_div_supershop_supplier_report::-webkit-scrollbar-track {
+  background: rgba(187, 210, 198, 1);
+}
+
+.container_div_delete {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  column-gap: 2vw;
+}
+
+.full_div {
+  display: flex;
+  flex-direction: column;
+  row-gap: 0.4vw;
+  width: 100vw;
+  padding-bottom: 0.1vw;
+  background-color: #dde0de;
+}
+.suppllier_report_input {
+  display: flex;
+  flex-direction: column;
+}
+.suppllier_report_input_date {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  column-gap: 1vw;
+}
+.Supplier_date_search_button button {
+  background-color: rgba(6, 52, 27, 1);
+  color: white;
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24),
+    0 17px 50px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 4.4px;
+  border: none;
+  border: none;
+  width: 5.5vw;
+  height: 2vw;
+}
+
+.update_button_purchses_report {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  row-gap: 0.5vw;
+  font-size: 1vw;
+  font-weight: bold;
+}
+.Second_update_button_supplier_report {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  row-gap: 0.5vw;
+  font-size: 1vw;
+  font-weight: bold;
+}
+.Second_update_button_supplier_report button {
+  width: 4vw;
+  height: 3.7vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: none;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px,
+    rgba(0, 0, 0, 0.22) 0px 15px 12px;
+  border-radius: 4.4px;
+  cursor: pointer;
+  justify-content: center;
+  background-color: rgba(6, 52, 27, 1);
+}
+.Second_update_button_supplier_report img {
+  width: 3.3vw;
+  height: 3.3vw;
+}
+.reset_button_purchses_report {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  row-gap: 0.5vw;
+  font-size: 1vw;
+  font-weight: bold;
+}
+.reset_button_purchses_report button {
+  width: 4vw;
+  height: 3.7vw;
+  display: flex;
+  flex-direction: column;
+  row-gap: 0.5vw;
+  align-items: center;
+  border: none;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px,
+    rgba(0, 0, 0, 0.22) 0px 15px 12px;
+  border-radius: 4.4px;
+  cursor: pointer;
+  background-color: rgba(6, 52, 27, 1);
+}
+.reset_button_purchses_report img {
+  width: 3.2vw;
+  margin-top: 0.2vw;
+  height: 3vw;
+}
+.Second_update_button_purchses_report button {
+  width: 4vw;
+  height: 3.7vw;
+  display: flex;
+  flex-direction: column;
+  row-gap: 0.5vw;
+  align-items: center;
+  border: none;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px,
+    rgba(0, 0, 0, 0.22) 0px 15px 12px;
+  background-color: rgba(6, 52, 27, 1) !important;
+  border-radius: 4.4px;
+  cursor: pointer;
+}
+.Second_update_button_purchses_report img {
+  width: 3.8vw;
+  margin-top: 0.2vw;
+  height: 3.3vw;
+}
+.first_column_second_row_input_field_purchase_report {
+  display: flex;
+  column-gap: 0.6vw;
+}
+.show_all_suppiler_button {
+  position: absolute;
+  right: 10vw;
+  top: 20%;
+  display: flex;
+  flex-direction: row;
+  column-gap: 5vw;
+  align-items: center;
+  justify-content: center;
+  border-radius: 0.3vw !important;
+  height: 10vh;
+}
+.excel_button {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 0.2vw;
+  font-weight: bold;
+}
+.excel_button button {
+  width: 4vw !important;
+  height: 3.7vw !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.5vw;
+}
+.excel_button button img {
+  width: 100%;
+}
+.show_all_suppiler_button button {
+  background-color: rgba(6, 52, 27, 1);
+  width: 5.5vw;
+  height: 2vw;
+  border: none;
+  color: rgb(253, 253, 253);
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px,
+    rgba(0, 0, 0, 0.22) 0px 15px 12px;
+  border-radius: 4.4px;
+  cursor: pointer;
+}
+
+.first_row_div_supplier_report {
+  display: flex;
+  flex-direction: column;
+  width: 98.2vw;
+  padding-right: 0.2vw;
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+  margin-left: 0.75vw;
+  border-radius: 2vh;
+  background-color: rgba(187, 210, 198, 1);
+  border: 1px solid white;
+}
+
+.third_row_div_purchase {
+  padding: 0.3vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  column-gap: 2vh;
+  width: 98vw;
+  height: 32.5vh;
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+  margin-left: 0.75vw;
+  border-radius: 2vh;
+  background-color: rgba(187, 210, 198, 1);
+  position: relative;
+  margin-top: 0.2vw;
+  border: 1px solid white;
+}
+.second_row_div_supplier_report {
+  display: flex;
+  flex-direction: row;
+  column-gap: 2vh;
+  width: 98.5vw;
+  height: 37vh;
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+  margin-left: 0.75vw;
+  border-radius: 2vh;
+  background-color: rgba(187, 210, 198, 1);
+  position: relative;
+  margin-top: 0.2vw;
+  border: 1px solid white;
+}
+.first_column_second_row_purchase_report {
+  display: flex;
+  flex-direction: column;
+  border-radius: 2vh;
+  padding-left: 1.4vw;
+  margin: 0.5vw 0vw 0vw 0.5vw;
+  padding-top: 1vw;
+  row-gap: 1vh;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px,
+    rgba(0, 0, 0, 0.22) 0px 15px 12px;
+  border-radius: 2vh;
+  transition: 0.5s;
+  background-color: rgba(136, 179, 154, 1);
+  height: 28.7vh;
+  width: 67vw;
+  animation-name: effectLeft;
+  animation-duration: 1s;
+  border: 1px solid white;
+}
+.all_update_button_supplier_report {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  column-gap: 4vw;
+  margin-top: -2.5vw;
+  margin-right: 4.5vw;
+}
+.invisible_div_supplier_report {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  border-radius: 2vh;
+  padding: 0.4vw;
+  width: 97.5vw;
+  height: 20vh;
+}
+.input_field_supershop_purchase {
+  box-shadow: 0 0px 0px 1px rgba(145, 141, 141, 0.5);
+  border-radius: 4.4px !important;
+  grid-column: input;
+  align-self: left;
+  font-size: 0.7vw;
+  background-color: #ffffff;
+  width: 8vw;
+  height: 3.2vh;
+  border: 0.001px solid red;
+  border-color: #b1afaf;
+  animation: 3s;
+  animation-name: fadeIn;
+  animation-fill-mode: forwards;
+  visibility: hidden;
+}
+
+.input_field_supershop_purchase_short {
+  width: 11vw !important;
+  border-radius: 4.4px !important;
+}
+
+.unit_add_purchaes {
+  width: 3.9vw !important;
+  margin-left: 0.2vw;
+  height: 1.4vw;
+  box-shadow: 0 0px 0px 1px rgba(145, 141, 141, 0.5);
+  border: none;
+  border-radius: 3px;
+}
+
+.label_field_supershop_purchase_report {
+  display: flex;
+  align-items: center;
+  box-shadow: 0 2px 100px 0 rgba(32, 31, 31, 0.5);
+  border-radius: 3px;
+  grid-column: label;
+  align-self: right;
+  font-size: 0.8vw;
+  padding-left: 0.3vw;
+  width: 7vw;
+  height: 3.2vh;
+  font-weight: bold;
+}
+
+.table_div_supershop_supplier_report {
+  box-shadow: 0 4px 30px 0 rgba(25, 24, 24, 0.2);
+  border-radius: 1vh;
+  margin-bottom: 1vh;
+  width: 97vw;
+  height: 30vh;
+  background-color: rgba(136, 179, 154, 1);
+  overflow-y: scroll;
+}
+
+.total_supplier_report {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 10vw;
+}
+.input_field_supershop_supplier_long {
+  width: 8vw !important;
+}
+.table_supershop_supplier_report {
+  display: flex;
+  flex-direction: column;
+  border-radius: 2vh;
+  transition: 0.5s;
+  margin-top: 0.6vw;
+  margin-left: 0.8vw;
+  margin-right: 0.4vw;
+  margin-bottom: 0.3vw;
+  width: 97vw;
+  height: 34vh;
+  animation-name: effectLeft;
+  animation-duration: 2s;
+}
+.input_field_short_long_purchase_supplier_report button {
+  background-color: rgba(6, 52, 27, 1) !important;
+  color: white;
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24),
+    0 17px 50px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 4.4px;
+}
+.input_field_short_long_supplier_report img {
+  width: 3vw;
+}
+.input_field_short_long_supplier_report {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-left: 5vw;
+  margin-top: 1vw;
+  font-weight: bold;
+  row-gap: 0.5vw;
+}
+.input_field_short_long_supplier_report button {
+  background: rgba(187, 210, 198, 1);
+  width: 4vw;
+  height: 4vw;
+  border: none;
+  color: rgb(5, 5, 5);
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px,
+    rgba(0, 0, 0, 0.22) 0px 15px 12px;
+  border-radius: 4.4px;
+  cursor: pointer;
+  background-color: rgba(6, 52, 27, 1);
+}
+.input_field_short_long_supplier_report span {
+  font-size: 1vw;
+  font-weight: bold;
+  padding-top: 0.5vh;
+  color: #000;
+  text-shadow: 2px 7px 5px rgba(0, 0, 0, 0.3),
+    0px -4px 10px rgba(255, 255, 255, 0.3);
+}
+.due_payment {
+  margin-bottom: 1vw;
+  margin-right: 15vw;
+  font-weight: bold;
+}
+.second_column_second_row_supplier_report {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-top: 0.2vw;
+  padding-right: 1vw;
+  margin-right: 0.5vw;
+  margin-top: 0.5vw;
+  column-gap: 3vw;
+  width: 23vw;
+  height: 30vh;
+  background-color: rgba(136, 179, 154, 1);
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px,
+    rgba(0, 0, 0, 0.22) 0px 15px 12px;
+  border-radius: 2vh;
+  border: 1px solid white;
+  transition: 0.5s;
+  animation-name: effectRight;
+  animation-duration: 1s;
+  position: relative;
+}
+
+.date_input_field_short_long_purchase_supplier_report {
+  display: flex;
+  align-items: center;
+  padding-bottom: 0.4vw;
+}
+.date_input_field_short_long_purchase_supplier_report input {
+  box-shadow: 0 0px 0px 1px rgba(145, 141, 141, 0.5);
+  border-radius: 4.4px;
+  grid-column: input;
+  align-self: left;
+  font-size: 0.8vw;
+  background-color: #ffffff;
+  width: 12vw;
+  height: 3.6vh;
+  padding-left: 0.3vw;
+  border: 1px solid black;
+  border-color: #b1afaf;
+  animation: 3s;
+  animation-name: fadeIn;
+  animation-fill-mode: forwards;
+  visibility: hidden;
+}
+.date_input_field_short_long_purchase_supplier_report label {
+  box-shadow: 0 2px 100px 0 rgba(32, 31, 31, 0.5);
+  border-radius: 3px;
+  grid-column: label;
+  align-self: right;
+  font-size: 0.8vw;
+  padding-left: 0.7vw;
+  margin-left: 1vw;
+  width: 7vw;
+  height: 3vh;
+  font-weight: bold;
+}
+.date_input_field_short_long_purchase_supplier_report button {
+  margin-left: 1vw;
+  border: none;
+  width: 5vw;
+  height: 1.6vw;
+  background-color: rgba(6, 52, 27, 1) !important;
+  color: white;
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24),
+    0 17px 50px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 4.4px;
+}
+.table_div_supershop_supplier_report th {
+  position: sticky;
+  top: 0;
+  background: rgba(6, 52, 27, 1);
+  color: #cac3c3;
+  width: 100vw;
+}
+
+.table_div_supershop_supplier_report table tr td {
+  text-align: center;
+  cursor: pointer;
+  font-size: 0.9vw;
+}
+.table_div_supershop_supplier_report table tr:hover {
+  background-color: gray;
+}
+.input_field_short_long_purchase_supplier_report button {
+  margin-left: 1vw;
+  border: none;
+  width: 5vw;
+  height: 1.6vw;
+}
+.input_field_short_long_purchase_supplier_report select {
+  box-shadow: 0 0px 0px 1px rgba(145, 141, 141, 0.5);
+  border-radius: 4.4px;
+  grid-column: input;
+  align-self: left;
+  font-size: 0.8vw;
+  background-color: #ffffff;
+  width: 12.5vw;
+  height: 3.7vh;
+  border: 0.001px solid black;
+  border-color: #b1afaf;
+  animation: 3s;
+  animation-name: fadeIn;
+  animation-fill-mode: forwards;
+  visibility: hidden;
+}
+
+.input_field_short_long_purchase_supplier_report {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 1vh;
+}
+.input_field_short_total_supplier_report {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 1vh;
+  margin-left: 38vw;
+}
+.show_all_button {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.show_all_button button {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 3vw;
+  height: 3vw;
+  font-size: 2vw;
+  color: #dde0de;
+  background-color: #06341b;
+  border: none;
+  border-radius: 1vw;
+  cursor: pointer;
+  box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset,
+    rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset,
+    rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px,
+    rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px,
+    rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+.show_all_button span {
+  font-size: 1vw;
+  font-weight: bold;
+  padding-top: 0.5vh;
+  color: #000;
+  text-shadow: 2px 7px 5px rgba(0, 0, 0, 0.3),
+    0px -4px 10px rgba(255, 255, 255, 0.3);
+}
+.input_field_supplier_report {
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px,
+    rgba(0, 0, 0, 0.22) 0px 15px 12px;
+  background-color: rgba(136, 179, 154, 1);
+  padding: 0.6vw;
+  display: flex;
+  column-gap: 2vw;
+  margin-left: 0.5vw;
+  width: 98vw;
+  height: 15vh;
+  border-radius: 1vw;
+  border: 1px solid white;
+  border-color: white;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  animation-name: effectTop;
+  animation-duration: 1s;
+}
+.input_field_short_long_purchase_supplier_report input {
+  box-shadow: 0 0px 0px 1px rgba(145, 141, 141, 0.5);
+  border-radius: 4.4px;
+  grid-column: input;
+  align-self: left;
+  font-size: 0.9vw;
+  background-color: #ffffff;
+  width: 12vw;
+  height: 3.2vh;
+  border: 0.001px solid black;
+  border-color: #b1afaf;
+  animation: 3s;
+  animation-name: fadeIn;
+  animation-fill-mode: forwards;
+  visibility: hidden;
+  padding-left: 0.3vw;
+}
+.input_field_short_long_purchase_supplier_report label {
+  box-shadow: none;
+  border-radius: 3px;
+  grid-column: label;
+  align-self: right;
+  font-size: 0.8vw;
+  padding-left: 0.7vw;
+  margin-left: 1vw;
+  width: 7vw;
+  height: 3vh;
+  font-weight: bold;
+  text-shadow: 2px 7px 5px rgba(0, 0, 0, 0.3),
+    0px -4px 10px rgba(255, 255, 255, 0.3);
+}
+.input_field_short_long_purchase_supplier_report_total label {
+  box-shadow: none;
+  border-radius: 3px;
+  font-size: 1vw;
+  margin-top: 0.3vw;
+  height: 3vh;
+  font-weight: bold;
+  text-shadow: 2px 7px 5px rgba(0, 0, 0, 0.3),
+    0px -4px 10px rgba(255, 255, 255, 0.3);
+}
+.input_field_short_long_purchase_supplier_report_total {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  column-gap: 1vw;
+  margin-left: 2vw;
+}
+.input_field_short_long_purchase_supplier_report_total input {
+  box-shadow: 0 0px 0px 1px rgba(145, 141, 141, 0.5);
+  border-radius: 4.4px;
+  grid-column: input;
+  align-self: left;
+  font-size: 1vw;
+  background-color: #ffffff;
+  font-weight: bold;
+  width: 12vw;
+  height: 3.2vh;
+  border: 0.001px solid black;
+  border-color: #b1afaf;
+  animation: 3s;
+  animation-name: fadeIn;
+  animation-fill-mode: forwards;
+  visibility: hidden;
+  text-align: center;
+  padding-left: 0.3vw;
+}
+
+@keyframes effectLeft {
+  0% {
+    transform: translateX(-10vw);
+    opacity: 0;
+  }
+  100% {
+    transform: translate(0);
+    opacity: 1;
+  }
+}
+
+@keyframes effectRight {
+  0% {
+    transform: translateX(10vw);
+    opacity: 0;
+  }
+  100% {
+    transform: translate(0);
+    opacity: 1;
+  }
+}
+@keyframes effectTop {
+  0% {
+    transform: translateY(-2vw);
+    opacity: 0;
+  }
+  100% {
+    transform: translate(0);
+    opacity: 1;
+  }
+}
+
+@keyframes effectbuttom {
+  0% {
+    transform: translateY(10vw);
+    opacity: 0;
+  }
+  100% {
+    transform: translate(0);
+    opacity: 1;
+  }
+}
+@keyframes fadeIn {
+  5% {
+    visibility: hidden;
+    opacity: 0.05;
+    box-shadow: 2px 2px 125px 2px rgba(145, 141, 141, 0.5);
+  }
+  10% {
+    visibility: visible;
+    opacity: 0.1;
+    box-shadow: 2px 2px 120px 2px rgba(145, 141, 141, 0.5);
+  }
+  15% {
+    visibility: visible;
+    opacity: 0.15;
+    box-shadow: 2px 2px 110px 2px rgba(145, 141, 141, 0.5);
+  }
+  20% {
+    visibility: visible;
+    opacity: 0.2;
+    box-shadow: 2px 2px 100px 2px rgba(145, 141, 141, 0.5);
+  }
+
+  25% {
+    visibility: hidden;
+    opacity: 0.25;
+    box-shadow: 2px 2px 95px 2px rgba(145, 141, 141, 0.5);
+  }
+  30% {
+    visibility: visible;
+    opacity: 0.3;
+    box-shadow: 2px 2px 90px 2px rgba(145, 141, 141, 0.5);
+  }
+  35% {
+    visibility: visible;
+    opacity: 0.35;
+    box-shadow: 2px 2px 85px 2px rgba(145, 141, 141, 0.5);
+  }
+  40% {
+    visibility: visible;
+    opacity: 0.4;
+    box-shadow: 2px 2px 80px 2px rgba(145, 141, 141, 0.5);
+  }
+  45% {
+    visibility: hidden;
+    opacity: 0.45;
+    box-shadow: 2px 2px 75px 2px rgba(145, 141, 141, 0.5);
+  }
+  50% {
+    visibility: visible;
+    opacity: 0.5;
+    box-shadow: 2px 2px 70px 2px rgba(145, 141, 141, 0.5);
+  }
+  55% {
+    visibility: visible;
+    opacity: 0.55;
+    box-shadow: 2px 2px 65px 2px rgba(145, 141, 141, 0.5);
+  }
+  60% {
+    visibility: visible;
+    opacity: 0.6;
+    box-shadow: 2px 2px 60px 2px rgba(145, 141, 141, 0.5);
+  }
+  65% {
+    visibility: visible;
+    opacity: 0.65;
+    box-shadow: 2px 2px 55px 2px rgba(145, 141, 141, 0.5);
+  }
+  70% {
+    visibility: hidden;
+    opacity: 0.7;
+    box-shadow: 2px 2px 50px 2px rgba(145, 141, 141, 0.5);
+  }
+  75% {
+    visibility: visible;
+    opacity: 0.75;
+    box-shadow: 2px 2px 45px 2px rgba(145, 141, 141, 0.5);
+  }
+  80% {
+    visibility: visible;
+    opacity: 0.8;
+    box-shadow: 2px 2px 40px 2px rgba(145, 141, 141, 0.5);
+  }
+  85% {
+    visibility: visible;
+    opacity: 0.85;
+    box-shadow: 2px 2px 15px 2px rgba(145, 141, 141, 0.5);
+  }
+  90% {
+    visibility: visible;
+    opacity: 0.9;
+    box-shadow: 2px 2px 10px 2px rgba(145, 141, 141, 0.5);
+  }
+  95% {
+    visibility: visible;
+    opacity: 0.95;
+    box-shadow: 2px 2px 5px 2px rgba(145, 141, 141, 0.5);
+  }
+  100% {
+    visibility: visible;
+    opacity: 1;
+    box-shadow: 2px 2px 4px 2px rgba(145, 141, 141, 0.5);
+  }
+}

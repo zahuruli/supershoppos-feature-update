@@ -1,0 +1,262 @@
+:root {
+  --bg: white;
+  --textColor: black;
+  --softBg: #f0f0f0;
+  --softTextColor: #626262;
+  --golden: rgb(221, 168, 33);
+  --bgGreen: #bbd2c6;
+  --bgSoftGreen: #88b39a;
+}
+.light {
+  --bg: white;
+  --textColor: black;
+  --softBg: #f0f0f0;
+  --softTextColor: #626262;
+  --golden: black;
+  --bgGreen: #bbd2c6;
+  --bgSoftGreen: #88b39a;
+}
+
+.dark {
+  --bg: #0f172a;
+  --textColor: #ddd;
+  --softBg: #1f273a;
+  --softTextColor: #a6a6a6;
+  --golden: rgb(221, 168, 33);
+  --bgGreen: #0f172a;
+  --bgSoftGreen: #1f273a;
+}
+
+.homeDashboard {
+  display: flex;
+  background-color: var(--bgGreen);
+  color: var(--textColor);
+  width: 100%;
+}
+
+.Dashboard_container {
+  background-color: var(--bgGreen);
+  color: var(--textColor);
+  width: 100%;
+}
+
+.dash_nav {
+  padding: 0.3vw 1.8vw;
+  background-color: var(--bgGreen);
+  /* border-bottom: 0.1vw solid var(--softBg); */
+}
+
+.nav_container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 4vh;
+}
+
+.nav_left {
+}
+
+.nav_text {
+  font-size: 22px;
+  color: var(--golden);
+  animation-name: effectTop;
+  animation-duration: 1.3s;
+}
+
+.date_text {
+  font-size: 16px;
+  color: var(--textColor);
+  animation-name: effectTop;
+  animation-duration: 1.3s;
+}
+.dash_footer {
+  background-color: var(--bgGreen);
+  height: 4.2vh;
+  padding: 1vh;
+}
+.dash_main {
+  min-height: 84vh;
+}
+
+.dash_bar_container {
+  display: flex;
+  align-items: center;
+  margin: 0 1vw;
+}
+
+/* .dash_sidebar {
+  width: 10%;
+  border-right: 1px solid var(--softBg);
+} */
+
+.dash_graph {
+  width: 100%;
+  margin: 0 0.4vw;
+  display: flex;
+  flex-direction: column;
+}
+
+.dash_graph_top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 1vh;
+}
+
+.dash_graph_top > div {
+  margin: 0 0.2vw;
+  width: 15vw;
+  height: 100%;
+  border: 0.1vw solid var(--softBg);
+  border-radius: 0.4vw;
+  padding: 0.3vw;
+  box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 2px 2px,
+    rgba(0, 0, 0, 0.09) 0px 4px 4px, rgba(0, 0, 0, 0.09) 0px 2px 2px,
+    rgba(0, 0, 0, 0.09) 0px 2px 2px;
+  background-color: var(--bgSoftGreen);
+}
+
+.top_g {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  transition: all 0.5s;
+}
+.top_g:hover {
+  transform: scale(1.1);
+}
+
+.top_g1 {
+  animation-name: effectLeft;
+  animation-duration: 1.3s;
+}
+.top_g2 {
+  animation-name: effectLeft;
+  animation-duration: 1.3s;
+}
+.top_g3 {
+  animation-name: effectTop;
+  animation-duration: 1.4s;
+}
+.top_g4 {
+  animation-name: effectTop;
+  animation-duration: 1.4s;
+}
+.top_g5 {
+  animation-name: effectRight;
+  animation-duration: 1.3s;
+}
+.top_g6 {
+  animation-name: effectRight;
+  animation-duration: 1.3s;
+}
+.icon_div {
+  padding: 0.5vw;
+}
+.details_div {
+  align-items: center;
+  margin-top: 0.2vh;
+  margin-right: 0.1vw;
+  color: var(--textColor);
+}
+
+.details_title {
+  font-size: 1.3vw;
+  text-align: right;
+  font-weight: bolder;
+}
+.amount {
+  font-size: 1.1vw;
+  text-align: right;
+}
+
+.dash_graph_main {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 5vh;
+}
+
+.dash_graph_main > div {
+  width: 32%;
+  margin: 0 0.2vw;
+  /* border: 0.1vh solid var(--softBg); */
+  border-radius: 0.2vw;
+  padding: 0.3vw;
+  height: 62vh;
+  box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 8px,
+    rgba(17, 17, 26, 0.1) 0px 4px 8px, rgba(17, 17, 26, 0.1) 0px 4px 8px;
+}
+
+.bragraph1 {
+  animation-name: effectLeft;
+  animation-duration: 1.2s;
+  transition: all 0.5s;
+}
+
+/* .bragraph1:hover {
+  transform: scale(1.02);
+} */
+
+.bragraph2 {
+  animation-name: effectButtom;
+  animation-duration: 1.3s;
+}
+.bragraph3 {
+  animation-name: effectRight;
+  animation-duration: 1.2s;
+}
+/*================ animation ==========================*/
+@keyframes effectLeft {
+  0% {
+    transform: translateX(-20vw);
+    opacity: 0;
+  }
+  100% {
+    transform: translate(0);
+    opacity: 1;
+  }
+}
+
+@keyframes effectRight {
+  0% {
+    transform: translateX(20vw);
+    opacity: 0;
+  }
+  100% {
+    transform: translate(0);
+    opacity: 1;
+  }
+}
+@keyframes effectTop {
+  0% {
+    transform: translateY(-20vw);
+    opacity: 0;
+  }
+  100% {
+    transform: translate(0);
+    opacity: 1;
+  }
+}
+
+@keyframes effectButtom {
+  0% {
+    transform: translateY(20vw);
+    opacity: 0;
+  }
+  100% {
+    transform: translate(0);
+    opacity: 1;
+  }
+}
+
+@keyframes transition_from_left_to_right {
+  0% {
+    transform: translateX(-10vw);
+    opacity: 0;
+  }
+  100% {
+    transform: translate(0);
+    opacity: 1;
+  }
+}
